@@ -1,0 +1,124 @@
+body {
+    background-color: #0c111b;
+
+}
+
+#navbar {
+    display: flex;
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#navbar>div {
+    display: flex;
+
+}
+
+img+div {
+    margin-top: 12px;
+
+}
+
+#navbar>div>img {
+
+    height: 40px;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding: 5px;
+    margin: 10px;
+}
+
+#searchbar {
+
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    height: 30px;
+    align-items: center;
+
+}
+
+#searchbar>button {
+    margin: 0px 15px 0px 15px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+
+    background-color: #2480e0;
+    border-radius: 5px;
+    border: none;
+
+}
+
+button+a {
+    font-size: 20px;
+}
+
+#searchbar>input {
+
+    border-bottom: 1px solid blue;
+    border: none;
+    font: 20px;
+    /* text-decoration: underline; */
+    background-color: #0c111b;
+    color: grey;
+    padding: 10px;
+
+    width: 200px;
+}
+
+#kids {
+    color: orange;
+    font-size: 22px;
+}
+#searchbar>a{
+    font-size: 30px;
+    
+}
+#searchbar>a:hover{
+    color: orange;
+}
+#loginbox{
+    height: auto;
+    padding: 20px;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+h1{
+    color: grey;
+    margin: 20px;
+
+}
+input{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 2px;
+    padding: 8px;
+    margin: 10px;
+    border: 0px solid ;
+
+}
+button{
+    color: white;
+    background-color: chartreuse;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
